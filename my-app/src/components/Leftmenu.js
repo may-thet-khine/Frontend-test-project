@@ -6,10 +6,10 @@ const element = (
 
 <div className="leftmenu">
   <Nav.Item>
-    <Nav.Link className="mt-1" eventKey="home" href="/"><FaAlignJustify /></Nav.Link>
+    <Nav.Link className="mt-1"  href="/"><FaAlignJustify /></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link eventKey="detail" href="/detail"><FaStar /></Nav.Link>
+    <Nav.Link  href="/detail"><FaStar /></Nav.Link>
   </Nav.Item>
 </div>
 
