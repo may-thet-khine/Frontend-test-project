@@ -13,7 +13,18 @@ export default class Homepage extends React.Component
 				<Leftmenu/>
                 <div className="container-fluid" id="home">
                     <Header/>
-               
+                <div className="mt-4">
+				<Search callback={this.searchItems} />
+				</div>
+                 
+                <div id="movies-menu">
+						<Navbar>
+						      <Nav.Link href="/">POPULAR</Nav.Link>
+						      <Nav.Link href="/">TOP RATED</Nav.Link>
+						      <Nav.Link href="/">UPCOMING</Nav.Link>
+						      <Nav.Link href="/">NOW PLAYING</Nav.Link>
+						</Navbar>
+                 </div>       
 				</div>
                 </div>
            );     

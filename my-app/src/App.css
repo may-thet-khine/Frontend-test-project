@@ -35,3 +35,10 @@
 	margin-top: 65px;
   width: 90%;
 }
+
+#home #movie-menu
+{
+	margin-top: 25px;
+	width: 100%;
+	text-align: center;
+}
